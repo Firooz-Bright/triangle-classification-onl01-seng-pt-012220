@@ -9,10 +9,10 @@ class Triangle
 
   def kind
     if (@side_A <= 0)||(@side_B <= 0)||(@side_C <= 0)
-      raise TriangleError
+     # raise TriangleError
       
     elsif (@side_A+@side_B <= @side_C)||(@side_A+@side_C <= @side_B)||(@side_B+@side_C <= @side_A)
-      raise TriangleError
+     # raise TriangleError
     end 
     
       if (@side_A == @side_B) && (@side_B == @side_C)
