@@ -12,7 +12,7 @@ class Triangle
       #  raise TriangleError
       
     elsif (@side_A+@side_B <= @side_C)||(@side_A+@side_C <= @side_B)||(@side_B+@side_C <= @side_A)
-     # raise TriangleError
+       raise TriangleError
     end 
     
       if (@side_A == @side_B) && (@side_B == @side_C)
